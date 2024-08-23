@@ -35,7 +35,7 @@ function handleCheck(){
     className="p-2 border rounded-md border-black bg-transparent m-2 placeholder-red-600"
     placeholder="Enter your city name"
     onChange={handleInput}></input>
-    <button className="bg-red-500  text-black p-2 border-none rounded-md" onClick={handleCheck}>Get Report</button>
+    <button className="bg-red-500  text-black p-2 m-2 border-none rounded-md" onClick={handleCheck}>Get Report</button>
     <p className="text-xl text-black p-1">Weather: {weather}</p>
     <p className="text-xl text-black p-1">Teamprature: {tempraure}</p>
     <p className="text-xl text-black p-1">Description: {description}</p>
