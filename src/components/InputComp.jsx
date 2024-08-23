@@ -32,7 +32,7 @@ function handleCheck(){
   return(<div>
     
     <input 
-    className="p-2 border rounded-md border-black bg-transparent m-2 placeholder-red-600"
+    className="p-2 border rounded-md border-black bg-transparent m-2 placeholder-red-600 w-48"
     placeholder="Enter your city name"
     onChange={handleInput}></input>
     <button className="bg-red-500  text-black p-2 m-2 border-none rounded-md" onClick={handleCheck}>Get Report</button>
